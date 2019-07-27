@@ -11,8 +11,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "jest",
-      "pre-push": "jest"
+      "pre-commit": "jest -o",
+      "pre-push": "jest -all"
     }
   },
   "jest": {
