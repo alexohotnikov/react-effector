@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStore } from 'effector-react';
 import { store, addCount, removeCount } from './store';
-// import './App.scss';
+import './App.scss';
 
 const Controls = () => (
   <div className="Controls">
